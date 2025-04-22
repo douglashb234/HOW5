@@ -1,0 +1,86 @@
+li{
+    border: 2px ridge rgb(200, 200, 200);
+    font-size: x-large;
+    list-style: none;
+    text-align: left;
+    display: inline;
+    padding: 5px;
+}
+li:hover {
+background-color: rgb(150, 150, 150);
+}
+ul{
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    text-align: left;
+    color: black;
+}
+.botao{
+    background-color: rgb(200, 200, 200);
+    color: white;
+    padding: 5px;
+    display: inline;
+    border-radius: 10px;
+    font-size: x-large;
+    box-shadow: 5px 5px 5px grey;
+    margin-right: 10px
+}
+.botao:hover{
+    background-color: rgb(150, 150, 150);
+
+}
+
+.right{
+    float:right;
+    margin-right: 10px;
+}
+
+.left{
+    float:left;
+}
+
+.d1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    font-family: inter;
+  }
+  .d1 img {
+    border: 3px ridge rgb(200, 200, 200);
+    border-radius: 10px;
+    width:400px;
+    height:200px;
+    margin-right:15px;
+  }
+
+
+  .d2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    font-family: inter;
+  }
+  .d2 img {
+    border: 3px ridge rgb(200, 200, 200);
+    border-radius: 10px;
+    width:600px;
+    height:300px;
+    margin-right:15px;
+  }
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
